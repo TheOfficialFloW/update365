@@ -23,7 +23,7 @@ Custom Firmware 3.65 HENkaku Ensō is a port of [henkaku](https://github.com/hen
 7) When the updater finishes flashing the new firmware, custom modules will be written to `vs0:tai` and the bootloader hack injected to the eMMC. You should now be on 3.65 HENkaku Ensō.
 
 ## FAQ
-- "Are Adrenaline, DownloadEnabler, NoNpDrm and SD2VITA compatible on 3.65?" - Yes they have all been updated and are available under my repository.
+- "Are Adrenaline, DownloadEnabler, NoNpDrm and SD2VITA compatible on 3.65?" - Yes they have all been updated and are available under my repositories.
 - "Is it risky to perform this update?" - All my betatesters have successfully updated and have no issues so far. The updater has been designed carefully, so you dont need to worry.
 - "Will I lose the hack if I format my Memory Card or restore the systems settings?" - No, you can nearly do everything with your device and you will not lose HENkaku. You must just NOT reinstall the 3.65 PUP.
 - "I have installed a bad plugin and now my device doesn't boot anymore" - Try to enter the `Safe Mode` and choose `2. Rebuild Database`. This will allow you to boot the device with plugins disabled and fresh `config.txt` files.

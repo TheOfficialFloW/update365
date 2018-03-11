@@ -14,7 +14,7 @@ Custom Firmware 3.65 HENkaku Ensō is a port of [henkaku](https://github.com/hen
 - Some applications may not work on the new firmware and need to be ported.
 
 ## Instructions
-1) Download [updater.vpk](https://github.com/TheOfficialFloW/update365/releases/v1.0/updater.vpk) and [PSP2UPDAT.PUP](https://github.com/TheOfficialFloW/update365/releases/v1.0/PSP2UPDAT.PUP).
+1) Download [updater.vpk](https://github.com/TheOfficialFloW/update365/releases/download/v1.0/updater.vpk) and [PSP2UPDAT.PUP](https://github.com/TheOfficialFloW/update365/releases/download/v1.0/PSP2UPDAT.PUP).
 2) If you are on a firmware below 3.60, update to 3.60 and install [henkaku](https://henkaku.xyz/). Then you can skip to 4.
 3) If you are already using 3.60 HENkaku (Enso), uninstall all plugins and uninstall the enso patch. It is recommended to first unlink the Memory Card in `HENkaku Settings` before you uninstall, so that your Memory Card won't be restricted due to the spoofed version at `ux0:id.dat`. Uninstalling all plugins and the enso patch is extremely important, as they can interfere with the update process if enabled (the updater will notice you in case you have not uninstalled them correctly).
 4) Install `updater.vpk` using [VitaShell](https://github.com/TheOfficialFloW/VitaShell/releases) and put the `PSP2UPDAT.PUP` file at `ux0:app/UPDATE365/PSP2UPDAT.PUP`.

@@ -16,7 +16,7 @@ Custom Firmware 3.65 HENkaku Ensō is a port of [henkaku](https://github.com/hen
 ## Instructions
 1) Download [updater.vpk](https://github.com/TheOfficialFloW/update365/releases/download/v1.0/updater.vpk) and [PSP2UPDAT.PUP](https://github.com/TheOfficialFloW/update365/releases/download/v1.0/PSP2UPDAT.PUP).
 2) If you are on a firmware below 3.60, update to 3.60 and install [henkaku](https://henkaku.xyz/). Then you can skip to 4.
-3) If you are already using 3.60 HENkaku (Enso), uninstall all plugins and uninstall the enso patch. It is recommended to first unlink the Memory Card in `HENkaku Settings` before you uninstall, so that your Memory Card won't be restricted due to the spoofed version at `ux0:id.dat`. Uninstalling all plugins and the enso patch is extremely important, as they can interfere with the update process if enabled (the updater will notice you in case you have not uninstalled them correctly).
+3) If you are already using 3.60 HENkaku (Enso), uninstall all plugins and uninstall the enso patch. It is recommended to first unlink the Memory Card in `HENkaku Settings` before you uninstall, so that your Memory Card won't be restricted afterwards due to the spoofed version at `ux0:id.dat`. Uninstalling all plugins and the enso patch is extremely important, as they can interfere with the update process if enabled (the updater will notice you in case you have not uninstalled them correctly).
 4) Install `updater.vpk` using [VitaShell](https://github.com/TheOfficialFloW/VitaShell/releases) and put the `PSP2UPDAT.PUP` file at `ux0:app/UPDATE365/PSP2UPDAT.PUP`.
 5) Reboot your device, start HENkaku and directly launch the updater, without launching anything else before like VitaShell or Adrenaline (since they start kernel modules). Also make sure that your battery is at least at 50%.
 6) Follow the instructions on screen and enjoy the update process.
@@ -26,7 +26,7 @@ Custom Firmware 3.65 HENkaku Ensō is a port of [henkaku](https://github.com/hen
 - "Are Adrenaline, DownloadEnabler, NoNpDrm and SD2VITA compatible on 3.65?" - Yes they have all been updated and are available under my repository.
 - "Is it risky to perform this update?" - All my betatesters have successfully updated and have no issues so far. The updater has been designed carefully, so you dont need to worry.
 - "Will I lose the hack if I format my Memory Card or restore the systems settings?" - No, you can nearly do everything with your device and you will not lose HENkaku. You must just NOT reinstall the 3.65 PUP.
-- "I have installed a bad plugin and now my device doesn't boot anymore" - Try to enter the `Safe Mode` and choose `2. Rebuild Database`. This will allow you to boot the device with plugins disabled fresh `config.txt` files.
+- "I have installed a bad plugin and now my device doesn't boot anymore" - Try to enter the `Safe Mode` and choose `2. Rebuild Database`. This will allow you to boot the device with plugins disabled and fresh `config.txt` files.
 - "Will I be able to hack my device that is on 3.65/3.67?" - Not with this software. I will release my exploit chain by the end of this year or next, so you have to be patient.
 
 ## Donation

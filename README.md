@@ -14,14 +14,15 @@ Custom Firmware 3.65 HENkaku Ensō is a port of [henkaku](https://github.com/hen
 - Some applications may not work on the new firmware and need to be ported.
 
 ## Instructions
-1) Update [VitaShell](https://github.com/TheOfficialFloW/VitaShell/releases) to v1.82 or later
-2) Download [updater.vpk](https://github.com/TheOfficialFloW/update365/releases/download/v1.0/updater.vpk) and [PSP2UPDAT.PUP](https://github.com/TheOfficialFloW/update365/releases/download/v1.0/PSP2UPDAT.PUP).
-3) If you are on a firmware below 3.60, update to 3.60 and install [henkaku](https://henkaku.xyz/). Then you can skip to 5.
-4) If you are already using 3.60 HENkaku (Enso), uninstall all plugins and uninstall the enso patch. It is recommended to first unlink the Memory Card in `HENkaku Settings` before you uninstall, so that your Memory Card won't be restricted afterwards due to the spoofed version at `ux0:id.dat`. Uninstalling all plugins and the enso patch is extremely important, as they can interfere with the update process if enabled (the updater will notice you in case you have not uninstalled them correctly).
-5) Install `updater.vpk` using `VitaShell` and put the `PSP2UPDAT.PUP` file at `ux0:app/UPDATE365/PSP2UPDAT.PUP`.
-6) Reboot your device, start HENkaku and directly launch the updater, without launching anything else before like VitaShell or Adrenaline (since they start kernel modules). Also make sure that your battery is at least at 50%.
-7) Follow the instructions on screen and enjoy the update process.
-8) When the updater finishes flashing the new firmware, custom modules will be written to `vs0:tai` and the bootloader hack injected to the eMMC. You should now be on 3.65 HENkaku Ensō.
+1) Update [VitaShell](https://github.com/TheOfficialFloW/VitaShell/releases) to v1.82 or later (if you get an error when trying to install the vpk, simply rename the vpk to zip and manually copy the `eboot.bin` file to `ux0:app/VITASHELL/eboot.bin`).
+2) Make a CMA backup of VitaShell. **This is very important, since if you lose VitaShell this is the way you restore it**.
+3) Download [updater.vpk](https://github.com/TheOfficialFloW/update365/releases/download/v1.0/updater.vpk) and [PSP2UPDAT.PUP](https://github.com/TheOfficialFloW/update365/releases/download/v1.0/PSP2UPDAT.PUP).
+4) If you are on a firmware below 3.60, update to 3.60 and install [henkaku](https://henkaku.xyz/). Then you can skip to 6.
+5) If you are already using 3.60 HENkaku (Enso), uninstall all plugins and uninstall the enso patch. It is recommended to first unlink the Memory Card in `HENkaku Settings` before you uninstall, so that your Memory Card won't be restricted afterwards due to the spoofed version at `ux0:id.dat`. Uninstalling all plugins and the enso patch is extremely important, as they can interfere with the update process if enabled (the updater will notice you in case you have not uninstalled them correctly).
+6) Install `updater.vpk` using `VitaShell` and put the `PSP2UPDAT.PUP` file at `ux0:app/UPDATE365/PSP2UPDAT.PUP`.
+7) Reboot your device, start HENkaku and directly launch the updater, without launching anything else before like VitaShell or Adrenaline (since they start kernel modules). Also make sure that your battery is at least at 50%.
+8) Follow the instructions on screen and enjoy the update process.
+9) When the updater finishes flashing the new firmware, custom modules will be written to `vs0:tai` and the bootloader hack injected to the eMMC. You should now be on 3.65 HENkaku Ensō.
 
 ## FAQ
 - "Are Adrenaline, DownloadEnabler, NoNpDrm and SD2VITA compatible on 3.65?" - Yes they have all been updated and are available under my repositories.

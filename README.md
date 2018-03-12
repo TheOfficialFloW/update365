@@ -29,6 +29,7 @@ Custom Firmware 3.65 HENkaku Ensō is a port of [henkaku](https://github.com/hen
 - "Will I lose the hack if I format my Memory Card or restore the systems settings?" - No, you can nearly do everything with your device and you will not lose HENkaku. You must just NOT reinstall the 3.65 PUP.
 - "I have installed a bad plugin and now my device doesn't boot anymore" - Try to enter the `Safe Mode` and choose `2. Rebuild Database`. This will allow you to boot the device with plugins disabled and fresh `config.txt` files.
 - "Will I be able to hack my device that is on 3.65/3.67?" - Not with this software. I will release my exploit chain by the end of this year or next, so you have to be patient.
+- "I have lost molecularShell/VitaShell!" - You proceeded through the updater without carefully reading it. Congratulations! You can simply restore it using CMA and [psvimgtools](https://github.com/yifanlu/psvimgtools), but since you didn't made a backup as it was CLEARLY stated in the updater, it's your own fault and you will now have to figure out yourself how to solve this problem.
 
 ## Donation
 If you like my work and want to support future projects, you can make a small [donation](https://www.paypal.me/PSVitaTheFloW/20). Thank you!

@@ -26,11 +26,11 @@ Custom Firmware 3.65 HENkaku Ensō is a port of [henkaku](https://github.com/hen
 
 ## FAQ
 - "Are Adrenaline, DownloadEnabler, NoNpDrm and SD2VITA compatible on 3.65?" - Yes they have all been updated and are available under my repositories.
-- "Is it risky to perform this update?" - All my betatesters have successfully updated and have no issues so far. The updater has been designed carefully, so you dont need to worry.
+- "Is it risky to perform this update?" - All my betatesters have successfully updated and have no issues so far. The updater has been designed carefully, so you don't need to worry.
 - "Will I lose the hack if I format my Memory Card or restore the systems settings?" - No, you can nearly do everything with your device and you will not lose HENkaku. You must just NOT reinstall the 3.65 PUP.
 - "I have installed a bad plugin and now my device doesn't boot anymore" - Try to enter the `Safe Mode` and choose `2. Rebuild Database`. This will allow you to boot the device with plugins disabled and fresh `config.txt` files.
 - "Will I be able to hack my device that is on 3.65/3.67?" - Not with this software. I will release my exploit chain by the end of this year or next, so you have to be patient.
-- "I have lost molecularShell/VitaShell!" - You proceeded through the updater without carefully reading it. Congratulations! You can simply restore it using CMA and [psvimgtools](https://github.com/yifanlu/psvimgtools), but since you didn't made a backup as it was CLEARLY stated in the updater, it's your own fault and you will now have to figure out yourself how to solve this problem.
+- "I have lost molecularShell/VitaShell!" - You proceeded through the updater without carefully reading it. Congratulations! You can simply restore it by using CMA and [psvimgtools](https://github.com/yifanlu/psvimgtools), but since you didn't made a backup as it was CLEARLY stated in the updater, it's your own fault and you will now have to figure out yourself how to solve this problem.
 - "I forgot to unlink the Memory Card before uninstalling enso now I can't use it!" - simply start HENkaku again through the browser, open settings app and then choose HENkaku Settings.
 
 ## Donation

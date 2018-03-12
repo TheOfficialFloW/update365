@@ -34,7 +34,7 @@ Custom Firmware 3.65 HENkaku Ensō is a port of [henkaku](https://github.com/hen
 - "I forgot to unlink the Memory Card before uninstalling enso now I can't use it!" - simply start HENkaku again through the browser, open settings app and then choose HENkaku Settings.
 
 ## Donation
-If you like my work and want to support future projects, you can make a small [donation](https://www.paypal.me/PSVitaTheFloW/20). Thank you!
+If you like my work and want to support future projects, you can make a small donation with [paypal](https://www.paypal.me/PSVitaTheFloW/20) or bitcoin `361jRJtjppd2iyaAhBGjf9GUCWnunxtZ49`. Thank you!
 
 ## Compiling
 Compile `enso`, `henkaku` and [taihen](https://github.com/TheOfficialFloW/taiHEN), then put the binaries `fat.bin`, `henkaku.suprx`, `henkaku.skprx` and `taihen.skprx` at `installer/res`. Then you can compile the installer. It is however very dangerous to do this by yourself if you don't know what you're doing. One mistake means a bricked device. If you want to only compile the installer, then simply open `updater.vpk` as zip file and use the three binaries from there.

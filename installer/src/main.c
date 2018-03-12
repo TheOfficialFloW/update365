@@ -456,13 +456,13 @@ int main(int argc, char *argv[]) {
 	ret = taiLoadStartKernelModule(APP_PATH "kernel2.skprx", 0, NULL, 0);
 	if (ret < 0) {
 		ErrorExit(20000, "Disable all plugins first before using this software.\n"
-											"If you have already disabled them, but still get this message,\n"
-											"reboot your device and launch this software again without\n"
-											"launching any other applications before.\n"
-											"VitaShell or Adrenaline for example start kernel modules.\n");
+					"If you have already disabled them, but still get this message,\n"
+					"reboot your device and launch this software again without\n"
+					"launching any other applications before.\n"
+					"VitaShell or Adrenaline for example start kernel modules.\n");
 	}
 
-  ret = taiStopUnloadKernelModule(ret, 0, NULL, 0, NULL, NULL);
+	ret = taiStopUnloadKernelModule(ret, 0, NULL, 0, NULL, NULL);
 	if (ret < 0)
 		ErrorExit(10000, "Error 0x%08X unloading kernel2.skprx.\n", ret);
 
@@ -483,8 +483,8 @@ int main(int argc, char *argv[]) {
 
 	if (is_mbr(&master)) {
 		ErrorExit(20000, "Please uninstall enso first before updating.\n"
-											"Tip: Unlink Memory Card in HENkaku Settings first\n"
-											"     before you uninstall enso.\n");
+					"Tip: Unlink Memory Card in HENkaku Settings first\n"
+					"     before you uninstall enso.\n");
 	}
 
 	if (sceIoGetstat(APP_PATH "PSP2UPDAT.PUP", &stat) < 0) {
@@ -505,9 +505,9 @@ int main(int argc, char *argv[]) {
 		}
 
 		printf("Downloading PSP2UPDAT.PUP...");
-    init_net();
+		init_net();
 		ret = download(PUP_URL, APP_PATH "PSP2UPDAT.PUP");
-    finish_net();
+		finish_net();
 		if (ret < 0)
 			ErrorExit(10000, "Error 0x%08X downloading PSP2UPDAT.PUP.\n", ret);
 */
@@ -515,14 +515,14 @@ int main(int argc, char *argv[]) {
 
 	printf("You are about to update to Custom Firmware 3.65 HENkaku Enso.\n\n");
 	printf("- Note that once updated there is no way to downgrade back to your\n"
-					"  current firmware.\n"
-					"- Remember to never attempt to modify vs0: or reinstall 3.65 PUP,\n"
-					"  otherwise you will lose the ability to run homebrews forever.\n"
-					"- Make sure that all your favorite homebrews and plugins are\n"
-					"  compatible on 3.65 before updating.\n"
-					"- Check if you have VitaShell v1.82 or higher installed yet\n"
-					"  and if you have made a CMA backup of it already.\n"
-					"  This is very important in case you accidentally lose VitaShell.\n\n");
+		"  current firmware.\n"
+		"- Remember to never attempt to modify vs0: or reinstall 3.65 PUP,\n"
+		"  otherwise you will lose the ability to run homebrews forever.\n"
+		"- Make sure that all your favorite homebrews and plugins are\n"
+		"  compatible on 3.65 before updating.\n"
+		"- Check if you have VitaShell v1.82 or higher installed yet\n"
+		"  and if you have made a CMA backup of it already.\n"
+		"  This is very important in case you accidentally lose VitaShell.\n\n");
 
 	printf("Continues in 20 seconds.\n\n");
 	sceKernelDelayThread(20 * 1000 * 1000);
@@ -543,10 +543,10 @@ int main(int argc, char *argv[]) {
 	}
 
 	printf("This software will make PERMANENT modifications to your Vita.\n"
-					"If anything goes wrong, there is NO RECOVERY (not even with a\n"
-					"hardware flasher). The creators provide this tool \"as is\", without\n"
-					"warranty of any kind, express or implied and cannot be held\n"
-					"liable for any damage done.\n\n");
+		"If anything goes wrong, there is NO RECOVERY (not even with a\n"
+		"hardware flasher). The creators provide this tool \"as is\", without\n"
+		"warranty of any kind, express or implied and cannot be held\n"
+		"liable for any damage done.\n\n");
 
 	printf("Continues in 20 seconds.\n\n");
 	sceKernelDelayThread(20 * 1000 * 1000);
@@ -629,7 +629,7 @@ int main(int argc, char *argv[]) {
 
 	printf("\n");
 	printf("Please do not press any buttons or power off the device during the\n"
-					"update, otherwise you may cause permanent damage to your device.\n\n");
+		"update, otherwise you may cause permanent damage to your device.\n\n");
 	sceKernelDelayThread(5 * 1000 * 1000);
 	printf("Have a safe trip and see you on the other side.\n\n");
 	sceKernelDelayThread(3 * 1000 * 1000);

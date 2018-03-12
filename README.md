@@ -36,6 +36,9 @@ Custom Firmware 3.65 HENkaku Ensō is a port of [henkaku](https://github.com/hen
 ## Donation
 If you like my work and want to support future projects, you can make a small [donation](https://www.paypal.me/PSVitaTheFloW/20). Thank you!
 
+## Compiling
+Compile `enso`, `henkaku` and [taihen](https://github.com/TheOfficialFloW/taiHEN), then put the binaries `fat.bin`, `henkaku.suprx`, `henkaku.skprx` and `taihen.skprx` at `installer/res`. Then you can compile the installer. It is however very dangerous to do this by yourself if you don't know what you're doing. One mistake means a bricked device. If you want to only compile the installer, then simply open `updater.vpk` as zip file and use the three binaries from there.
+
 ## Credits
 - [molecule](https://twitter.com/TeamMolecule) for their original work.
 - [Mathieulh](https://twitter.com/Mathieulh) for providing his devkit.

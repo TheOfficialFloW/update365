@@ -35,7 +35,7 @@ Custom Firmware 3.65 HENkaku Ensō is a port of [henkaku](https://github.com/hen
 - "I have only got a SD2VITA but no Memory Card, how can I update?" - If you are using a PS Vita Slim or PSTV, you can just use the Internal Storage to update, otherwise you can't. When you use SD2VITA you have to use a plugin for that. But plugins are dangerous since they can interfere with the update process which can lead to a brick in the worst case. An other reason is that I want to prevent this scenario: Imagine an user forgets to update the SD2VITA plugin and updates to 3.65, then realizes that the driver is unsupported. He will then be forced to buy a Memory Card in order to do anything with the new custom firmware.
 
 ## Donation
-If you like my work and want to support future projects, you can make a small donation with [paypal](https://www.paypal.me/PSVitaTheFloW/20) or bitcoin `361jRJtjppd2iyaAhBGjf9GUCWnunxtZ49`. Thank you!
+If you like my work and want to support future projects, you can make a small donation with via bitcoin `361jRJtjppd2iyaAhBGjf9GUCWnunxtZ49`. Thank you!
 
 ## Compiling
 Compile `enso`, `henkaku` and [taihen](https://github.com/TheOfficialFloW/taiHEN), then put the binaries `fat.bin`, `henkaku.suprx`, `henkaku.skprx` and `taihen.skprx` at `installer/res`. Then you can compile the installer. It is however very dangerous to do this by yourself if you don't know what you're doing. One mistake means a bricked device. If you want to only compile the installer, then simply open `updater.vpk` as zip file and use the three binaries from there.

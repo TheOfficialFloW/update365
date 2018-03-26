@@ -425,21 +425,19 @@ int module_start(SceSize argc, const void *args) {
   // find firmware version by module nid
   info.size = sizeof(info);
   if (taiGetModuleInfo("SceSettings", &info) >= 0) {
-    if (config.use_psn_spoofing) {
-      switch (info.module_nid) {
-        case 0xC2A86F54: // retail 3.60 SceSettings
-          g_firmware_version = 0x03600000;
-          break;
-        case 0x13B4C016: // retail 3.65 SceSettings
-          g_firmware_version = 0x03650000;
-          break;
-        case 0x313B7C2F: // retail 3.67 SceSettings
-          g_firmware_version = 0x03670000;
-          break;
-        default: {
-          g_firmware_version = 0;
-          LOG("SceSettings NID %X not recognized", info.module_nid);
-        }
+    switch (info.module_nid) {
+      case 0xC2A86F54: // retail 3.60 SceSettings
+        g_firmware_version = 0x03600000;
+        break;
+      case 0x13B4C016: // retail 3.65 SceSettings
+        g_firmware_version = 0x03650000;
+        break;
+      case 0x313B7C2F: // retail 3.67 SceSettings
+        g_firmware_version = 0x03670000;
+        break;
+      default: {
+        g_firmware_version = 0;
+        LOG("SceSettings NID %X not recognized", info.module_nid);
       }
     }
   }

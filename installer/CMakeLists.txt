@@ -89,7 +89,7 @@ set_target_properties(kernel
 target_link_libraries(kernel
   k
   gcc
-	SceAppMgrForDriver_stub
+  SceAppMgrForDriver_stub
   SceThreadmgrForDriver_stub
   SceModulemgrForDriver_stub
   SceSblAIMgrForDriver_stub
@@ -97,7 +97,7 @@ target_link_libraries(kernel
   SceSysmemForDriver_stub
   SceSysrootForKernel_stub
   taihenForKernel_stub
-	taihenModuleUtils_stub
+  taihenModuleUtils_stub
 )
 vita_create_self(kernel.skprx kernel
   CONFIG ${CMAKE_SOURCE_DIR}/src/kernel_exports.yml
@@ -115,9 +115,9 @@ set_target_properties(kernel2
 target_link_libraries(kernel2
   gcc
   taihenForKernel_stub
-	taihenModuleUtils_stub
-	SceSysclibForDriver_stub
-	SceThreadmgrForDriver_stub
+  taihenModuleUtils_stub
+  SceSysclibForDriver_stub
+  SceThreadmgrForDriver_stub
 )
 vita_create_self(kernel2.skprx kernel2
   CONFIG ${CMAKE_SOURCE_DIR}/src/kernel2.yml

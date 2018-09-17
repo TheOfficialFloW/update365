@@ -1,6 +1,6 @@
 # 3.65 HENkaku Ensō Updater
 
-## This software is outdated, please use the [real enso installer](https://github.com/TheOfficialFloW/enso/releases/tag/v1.0)
+## This software is outdated, please use the [real enso installer](https://github.com/TheOfficialFloW/enso/releases)
 
 Custom Firmware 3.65 HENkaku Ensō is a port of [henkaku](https://github.com/henkaku) to the latest possible firmware that does still have the bootloader vulnerability.
 
